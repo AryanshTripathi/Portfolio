@@ -1,0 +1,6 @@
+1) Try centering in SectionWrapper to see if it looks better on small devices -- DONE
+2) Work on Ball component
+3) Make form using MUI -- LOOKS BETTER THIS WAY
+4) Use dialogueBox instead of alert 
+5) Work on responsiveness
+6) Add more features
