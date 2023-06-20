@@ -16,9 +16,12 @@ import {
 	figma,
 	docker,
 	threejs,
+	c,
+	cplusplus,
 	meta,
 	mastork,
 	pmgsy,
+	laHC,
 	starbucks,
 	tesla,
 	shopify,
@@ -26,8 +29,9 @@ import {
 	jobit,
 	tripguide,
 	admindashboard,
-	adoptme,
+	bodyweightblitz,
 	whatsapp,
+	jobsearch,
 } from "../assets";
 
 export const navLinks = [
@@ -50,10 +54,10 @@ const services = [
 		title: "Web Developer",
 		icon: web,
 	},
-	// {
-	// 	title: "React Native Developer",
-	// 	icon: mobile,
-	// },
+	{
+		title: "React Native Developer",
+		icon: mobile,
+	},
 	{
 		title: "Competitive Programmer",
 		icon: creator,
@@ -101,10 +105,10 @@ const technologies = [
 		name: "Node JS",
 		icon: nodejs,
 	},
-	{
-		name: "MongoDB",
-		icon: mongodb,
-	},
+	// {
+	// 	name: "MongoDB",
+	// 	icon: mongodb,
+	// },
 	{
 		name: "Three JS",
 		icon: threejs,
@@ -114,13 +118,21 @@ const technologies = [
 		icon: git,
 	},
 	{
-		name: "figma",
-		icon: figma,
+		name: "C",
+		icon: c,
 	},
 	{
-		name: "docker",
-		icon: docker,
+		name: "C++",
+		icon: cplusplus,
 	},
+	// {
+	// 	name: "figma",
+	// 	icon: figma,
+	// },
+	// {
+	// 	name: "docker",
+	// 	icon: docker,
+	// },
 ];
 
 const experiences = [
@@ -142,7 +154,7 @@ const experiences = [
 		company_name: "Mastork Technologies",
 		icon: mastork,
 		iconBg: "#383E56",
-		date: "August 2020 - October 2020",
+		date: "August 2022 - October 2022",
 		points: [
 			"Developing and maintaining web applications using React.js and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -150,32 +162,19 @@ const experiences = [
 			"Participating in code reviews and providing constructive feedback to other developers.",
 		],
 	},
-	// {
-	// 	title: "Web Developer",
-	// 	company_name: "Shopify",
-	// 	icon: shopify,
-	// 	iconBg: "#383E56",
-	// 	date: "Jan 2022 - Jan 2023",
-	// 	points: [
-	// 		"Developing and maintaining web applications using React.js and other related technologies.",
-	// 		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-	// 		"Implementing responsive design and ensuring cross-browser compatibility.",
-	// 		"Participating in code reviews and providing constructive feedback to other developers.",
-	// 	],
-	// },
-	// {
-	// 	title: "Full stack Developer",
-	// 	company_name: "Meta",
-	// 	icon: meta,
-	// 	iconBg: "#E6DEDD",
-	// 	date: "Jan 2023 - Present",
-	// 	points: [
-	// 		"Developing and maintaining web applications using React.js and other related technologies.",
-	// 		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-	// 		"Implementing responsive design and ensuring cross-browser compatibility.",
-	// 		"Participating in code reviews and providing constructive feedback to other developers.",
-	// 	],
-	// },
+	{
+		title: "Software Developer",
+		company_name: "Laboratoire Hubert Curien",
+		icon: laHC,
+		iconBg: "#383E56",
+		date: "May 2023 - July 2023",
+		points: [
+			"Developing and maintaining a library to encode JSON-LD data to CBOR-LD data, using C to save space and time in the transmission of data.",
+			"Collaborating with cross-functional teams working on various aspects of the project and constantly communicating with the team to ensure that the project is on track.",
+			"Implementing the best algorithms possible to reduce space complexity as much as possible.",
+			"Participating in code reviews and providing constructive feedback to other developers.",
+		],
+	},
 ];
 
 const testimonials = [
@@ -195,33 +194,33 @@ const testimonials = [
 		company: "Mastork Technologies",
 		image: "https://randomuser.me/api/portraits/men/5.jpg",
 	},
-	// {
-	// 	testimonial:
-	// 		"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-	// 	name: "Lisa Wang",
-	// 	designation: "CTO",
-	// 	company: "456 Enterprises",
-	// 	image: "https://randomuser.me/api/portraits/women/6.jpg",
-	// },
 ];
 
 const projects = [
 	{
-		name: "Pet Adoption App",
+		name: "Bodyweight Blitz",
 		description:
-			"Web-based platform that allows users to search and adopt pets from various providers, providing a convenient and efficient solution for pet needs.",
+			"A web based workout manager app which is a digital tool that helps users set fitness goals, and create personalized workout plans. It is part of the series of projects that I am making to learn Next.js and React-Native.",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "firebase",
 				color: "pink-text-gradient",
 			},
+			{
+				name: "MUI",
+				color: "green-text-gradient",
+			},
+			{
+				name: "react-hook-form",
+				color: "orange-text-gradient",
+			},
 		],
-		image: adoptme,
-		source_code_link: "https://github.com/",
+		image: bodyweightblitz,
+		source_code_link: "https://github.com/AryanshTripathi/bodyweight-blitz",
 	},
 	{
 		name: "Admin Dashboard",
@@ -238,12 +237,12 @@ const projects = [
 			},
 		],
 		image: admindashboard,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/AryanshTripathi/Admin-Dashboard",
 	},
 	{
 		name: "Whatsapp Clone",
 		description:
-			"Web-based whatsapp clone that is developed with the sole purpose of learning and understanding the working principle of whatsapp.",
+			"Web-based whatsapp clone that is developed with the sole purpose of learning and understanding the working principle of messaging through whatsapp.",
 		tags: [
 			{
 				name: "react",
@@ -259,7 +258,28 @@ const projects = [
 			},
 		],
 		image: whatsapp,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/AryanshTripathi/Whatsapp-Clone",
+	},
+	{
+		name: "Job Search",
+		description:
+			"a digital platform that connects job seekers with employers and facilitates the process of finding employment. Users can search for job openings and apply for positions through the app.",
+		tags: [
+			{
+				name: "react native",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "expo",
+				color: "green-text-gradient",
+			},
+			{
+				name: "axios",
+				color: "pink-text-gradient",
+			},
+		],
+		image: jobsearch,
+		source_code_link: "https://github.com/AryanshTripathi/job-search",
 	},
 	// {
 	// 	name: "Car Rent",

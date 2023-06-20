@@ -20,6 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import c from "./tech/c.png";
+import cplusplus from "./tech/c++.png";
 
 import meta from "./company/meta.png";
 import mastork from "./company/mastork.jpeg";
@@ -27,14 +29,16 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import pmgsy from "./company/pmgsy.jpg";
+import laHC from "./company/LaHC.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import whatsapp from "./whatsapp.png";
-import adoptme from "./adoptme.png";
+import bodyweightblitz from "./bodyweightblitz.png";
 import admindashboard from "./admindashboard.png";
+import jobsearch from "./jobsearch.png";
 
 export {
 	logo,
@@ -58,16 +62,20 @@ export {
 	tailwind,
 	typescript,
 	threejs,
+	c,
+	cplusplus,
 	meta,
 	mastork,
 	pmgsy,
+	laHC,
 	shopify,
 	starbucks,
 	tesla,
 	carrent,
 	jobit,
 	tripguide,
-	adoptme,
+	bodyweightblitz,
 	admindashboard,
 	whatsapp,
+	jobsearch,
 };
