@@ -40,16 +40,38 @@ const About = () => {
 			<motion.p
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-2 text-secondary text-[17px] leading-[30px]">
-				Highly motivated and detail-oriented front-end web developer intern with
-				a passion for creating dynamic, user-friendly web applications.
-				Proficient in HTML, CSS, JavaScript with a strong understanding of
-				responsive design and cross-browser compatibility. Experienced in using
-				React and MUI. Motivated software developer with a strong foundation in
-				programming and a passion for problem-solving. Skilled in C/C++, React,
-				and Firebase with experience in developing and testing applications.
-				Proficient in using Git for version control and collaboration. Looking
-				for any opportunity to gain hands-on experience in a fast-paced, dynamic
-				work environment and expand my knowledge of software development.
+				A passionate Software Developer and final-year student pursuing an
+				Integrated Dual Degree at IIT BHU, with a CGPA of{" "}
+				<span className="font-semibold text-gray-300 italic">8.51.</span> With
+				excellent proficiency in{" "}
+				<span className="font-semibold text-gray-300 italic capitalize">
+					HTML, CSS & JavaScript
+				</span>
+				, I specialize in{" "}
+				<span className="font-semibold text-gray-300 italic capitalize">
+					Full-Stack Development
+				</span>{" "}
+				with expertise in{" "}
+				<span className="font-semibold text-gray-300 italic">
+					React.js, Next.js, TypeScript, Tailwind
+				</span>{" "}
+				and backend technologies like{" "}
+				<span className="font-semibold text-gray-300 italic">
+					Node JS, PostgreSQL and MongoDB.
+				</span>{" "}
+				I've honed my skills in problem-solving, achieving{" "}
+				<span className="font-semibold text-gray-300 italic">
+					Specialist rank on Codeforces
+				</span>{" "}
+				and solving 800+ challenges on platforms like LeetCode and GFG. I've
+				also contributed to cutting-edge research,{" "}
+				<span className="font-semibold text-gray-300 italic">
+					co-authoring a paper on CBOR-LD
+				</span>{" "}
+				compact data representation in the Web of Things. Whether it's building
+				efficient solutions or tackling complex algorithms, I'm always eager to
+				create, learn, and grow. Let's connect to collaborate or explore
+				exciting opportunities!
 			</motion.p>
 
 			<div className="mt-20 flex flex-wrap gap-10">

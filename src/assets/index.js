@@ -22,6 +22,9 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import c from "./tech/c.png";
 import cplusplus from "./tech/c++.png";
+import postgresql from "./tech/postgresql.png";
+import next from "./tech/next.png";
+import python from "./tech/python.png";
 
 import meta from "./company/meta.png";
 import mastork from "./company/mastork.jpeg";
@@ -39,6 +42,9 @@ import whatsapp from "./whatsapp.png";
 import bodyweightblitz from "./bodyweightblitz.png";
 import admindashboard from "./admindashboard.png";
 import jobsearch from "./jobsearch.png";
+import visualizer from "./visualizer.png";
+import voom from "./voom.png";
+import order_it from "./order_it.png";
 
 export {
 	logo,
@@ -64,6 +70,9 @@ export {
 	threejs,
 	c,
 	cplusplus,
+	postgresql,
+	next,
+	python,
 	meta,
 	mastork,
 	pmgsy,
@@ -78,4 +87,7 @@ export {
 	admindashboard,
 	whatsapp,
 	jobsearch,
+	visualizer,
+	order_it,
+	voom,
 };

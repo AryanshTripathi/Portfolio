@@ -13,25 +13,22 @@ import {
 	nodejs,
 	mongodb,
 	git,
-	figma,
-	docker,
 	threejs,
 	c,
 	cplusplus,
-	meta,
 	mastork,
 	pmgsy,
 	laHC,
-	starbucks,
-	tesla,
-	shopify,
-	carrent,
-	jobit,
-	tripguide,
 	admindashboard,
 	bodyweightblitz,
 	whatsapp,
 	jobsearch,
+	postgresql,
+	next,
+	python,
+	order_it,
+	voom,
+	visualizer,
 } from "../assets";
 
 export const navLinks = [
@@ -51,25 +48,21 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "Web Developer",
+		title: "Frontend Developer",
 		icon: web,
 	},
 	{
-		title: "React Native Developer",
+		title: "Software Developer",
 		icon: mobile,
 	},
 	{
 		title: "Competitive Programmer",
 		icon: creator,
 	},
-	// {
-	// 	title: "Backend Developer",
-	// 	icon: backend,
-	// },
-	// {
-	// 	title: "Content Creator",
-	// 	icon: creator,
-	// },
+	{
+		title: "Backend Developer",
+		icon: backend,
+	},
 ];
 
 const technologies = [
@@ -94,28 +87,25 @@ const technologies = [
 		icon: reactjs,
 	},
 	{
-		name: "Redux Toolkit",
-		icon: redux,
+		name: "Next JS",
+		icon: next,
 	},
 	{
 		name: "Tailwind CSS",
 		icon: tailwind,
 	},
+
 	{
 		name: "Node JS",
 		icon: nodejs,
 	},
-	// {
-	// 	name: "MongoDB",
-	// 	icon: mongodb,
-	// },
 	{
-		name: "Three JS",
-		icon: threejs,
+		name: "MongoDB",
+		icon: mongodb,
 	},
 	{
-		name: "git",
-		icon: git,
+		name: "PostgreSQL",
+		icon: postgresql,
 	},
 	{
 		name: "C",
@@ -125,6 +115,11 @@ const technologies = [
 		name: "C++",
 		icon: cplusplus,
 	},
+	{
+		name: "Python",
+		icon: python,
+	},
+
 	// {
 	// 	name: "figma",
 	// 	icon: figma,
@@ -198,6 +193,73 @@ const testimonials = [
 
 const projects = [
 	{
+		name: "Order-It",
+		description:
+			"A full-stack food ordering platform that allows both food ordering and restaurant managing services. User can search for the city, find the restaurant, filter the items, make payment and place the order and recieve real-time notification on order status.",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "mongo-db",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "green-text-gradient",
+			},
+			{
+				name: "stripe",
+				color: "orange-text-gradient",
+			},
+		],
+		image: order_it,
+		source_code_link: "https://github.com/AryanshTripathi/Order-It",
+	},
+	{
+		name: "Voom",
+		description:
+			"Voom is a versatile meeting platform that allows users to host, schedule, and manage online meetings with ease. Packed with features to enhance virtual collaboration, it offers a seamless experience for both personal and professional use.",
+		tags: [
+			{
+				name: "next",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "shadcn",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "green-text-gradient",
+			},
+		],
+		image: voom,
+		source_code_link: "https://github.com/AryanshTripathi/Voom",
+	},
+	{
+		name: "Visualizer",
+		description:
+			"Visualizer is an interactive web application that allows users to explore and understand sorting and pathfinding algorithms through animations. The platform is designed to enhance learning by providing customizable options and a visual representation of algorithmic behavior.",
+		tags: [
+			{
+				name: "react",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "animation",
+				color: "green-text-gradient",
+			},
+		],
+		image: visualizer,
+		source_code_link: "https://github.com/AryanshTripathi/Visualizer",
+	},
+	{
 		name: "Bodyweight Blitz",
 		description:
 			"A web based workout manager app which is a digital tool that helps users set fitness goals, and create personalized workout plans. It is part of the series of projects that I am making to learn Next.js and React-Native.",
@@ -222,6 +284,7 @@ const projects = [
 		image: bodyweightblitz,
 		source_code_link: "https://github.com/AryanshTripathi/bodyweight-blitz",
 	},
+
 	{
 		name: "Admin Dashboard",
 		description:
@@ -281,69 +344,6 @@ const projects = [
 		image: jobsearch,
 		source_code_link: "https://github.com/AryanshTripathi/job-search",
 	},
-	// {
-	// 	name: "Car Rent",
-	// 	description:
-	// 		"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-	// 	tags: [
-	// 		{
-	// 			name: "react",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "mongodb",
-	// 			color: "green-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "tailwind",
-	// 			color: "pink-text-gradient",
-	// 		},
-	// 	],
-	// 	image: carrent,
-	// 	source_code_link: "https://github.com/",
-	// },
-	// {
-	// 	name: "Job IT",
-	// 	description:
-	// 		"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-	// 	tags: [
-	// 		{
-	// 			name: "react",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "restapi",
-	// 			color: "green-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "scss",
-	// 			color: "pink-text-gradient",
-	// 		},
-	// 	],
-	// 	image: jobit,
-	// 	source_code_link: "https://github.com/",
-	// },
-	// {
-	// 	name: "Trip Guide",
-	// 	description:
-	// 		"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-	// 	tags: [
-	// 		{
-	// 			name: "nextjs",
-	// 			color: "blue-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "supabase",
-	// 			color: "green-text-gradient",
-	// 		},
-	// 		{
-	// 			name: "css",
-	// 			color: "pink-text-gradient",
-	// 		},
-	// 	],
-	// 	image: tripguide,
-	// 	source_code_link: "https://github.com/",
-	// },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
